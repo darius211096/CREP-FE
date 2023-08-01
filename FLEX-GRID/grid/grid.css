@@ -1,0 +1,20 @@
+.team {
+    display: grid;
+    grid-template-columns: 60%;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 195px 195px 195px; */
+    align-items: center;
+    column-gap: 50px;
+}
+
+.team-member {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    align-items: end;
+    text-align: center;
+}
